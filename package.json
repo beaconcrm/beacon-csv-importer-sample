@@ -14,5 +14,9 @@
     "lodash": "^4.17.21",
     "mocha": "^11.4.0"
   },
+  "resolutions": {
+    "//": "Because Mocha needs to update their deps",
+    "serialize-javascript": "^7.0.3"
+  },
   "devDependencies": {}
 }
