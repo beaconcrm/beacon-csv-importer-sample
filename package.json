@@ -1,6 +1,6 @@
 {
   "name": "beacon-csv-importer-sample",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "repository": "https://github.com/beaconcrm/beacon-csv-importer-sample.git",
   "author": "Chris Houghton <chris@beaconcrm.org>",
