@@ -8,14 +8,12 @@
 * separate unit test files for each.
 */
 
-module.exports = (row) => {
-
-  const mappedRow = {};
-
-  // console.log(row);
+const mapRow = (row: Record<string, string>): Record<string, unknown> => {
+  const mappedRow: Record<string, unknown> = {};
 
   // DO YOUR MAPPING HERE TO ADD TO `mappedRow`!
 
   return mappedRow;
-
 };
+
+export default mapRow;

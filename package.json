@@ -6,13 +6,15 @@
   "author": "Chris Houghton <chris@beaconcrm.org>",
   "license": "MIT",
   "scripts": {
-    "start": "node start.js",
-    "test": "mocha --recursive"
+    "start": "node --watch --require ts-node/register start.ts",
+    "test": "node --watch --require ts-node/register --test 'test/**/*.ts'"
   },
   "dependencies": {
-    "fast-csv": "^5.0.2",
-    "lodash": "^4.17.21",
-    "mocha": "^11.4.0"
+    "fast-csv": "^5.0.2"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.0"
+  }
 }
